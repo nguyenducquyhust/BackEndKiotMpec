@@ -27,7 +27,9 @@ public class TaviMrsApplication {
     }
 
     public static void main(String[] args) {
+
         SpringApplication.run(TaviMrsApplication.class, args);
+
     }
 
     @Bean

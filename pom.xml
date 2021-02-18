@@ -11,7 +11,7 @@
     <groupId>com.tavi</groupId>
     <artifactId>mpec</artifactId>
     <version>0.0.2</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>mpec</name>
     <description>Project MRS for Spring Boot</description>
 
