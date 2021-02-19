@@ -325,7 +325,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                  <argLine>-Xmx1024m</argLine>
+                  <verbose>true</verbose>
+        <fork>true</fork>
+        <argLine>-XX:MaxPermSize=500M</argLine>
                 </configuration>
             </plugin>
         </plugins>
