@@ -324,6 +324,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                  <argLine>-Xmx1024m</argLine>
+                </configuration>
             </plugin>
         </plugins>
     </build>
